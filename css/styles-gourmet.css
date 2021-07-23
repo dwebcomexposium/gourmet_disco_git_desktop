@@ -1141,7 +1141,7 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 
 /*  Logo  */
 .logo { text-align: center;}
-.logo a { width: 304px; height: 221px; background-image: url(images/logo-gourmet@2x.png); background-size: 100%;}
+.logo a { width: 245px; height: 179px; background-image: url(gfx/logo-gourmet-discovery.svg); background-size: 100%;}
 
 /*  Site Banner  */
 .site-banner { background: #11111; /*background-image: none;*/}
