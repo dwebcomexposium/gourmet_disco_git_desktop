@@ -1429,8 +1429,8 @@ body.is-mac .block.block-small.quicklinks.links { padding: 0 97px 0 80px;}}
 .site-footer .social-row .ico-list ul li a:hover { opacity: 0.7;}
 .site-footer .social-row .ico-list ul li a.instagram-ico { background-image: url(gfx/ico-instagram.svg); background-size: 18px 19px;}
 .site-footer .social-row .ico-list ul li a.facebook-ico { background-image: url(gfx/ico-facebook.svg); background-size: 10px 18px;}
-.site-footer .social-row .ico-list ul li a.youtube-ico { background-image: url(images/ico-youtube.svg); background-size: 21px 16px;}
-.site-footer .social-row .ico-list ul li a.linkedin-ico { background-image: url(images/ico-linkedin.svg); background-size: 16px 16px;}
+.site-footer .social-row .ico-list ul li a.youtube-ico { background-image: url(gfx/ico-youtube.svg); background-size: 21px 16px;}
+.site-footer .social-row .ico-list ul li a.linkedin-ico { background-image: url(gfx/ico-linkedin.svg); background-size: 16px 16px;}
 .site-footer .newsletter-block { max-width: 866px; margin: 0 auto; padding: 56px 30px 0 30px;}
 .site-footer .newsletter-block .title-row { margin-bottom: 40px;}
 @media (max-width: 900px) { .site-footer .newsletter-block .title-row { margin-bottom: 10px;}}
