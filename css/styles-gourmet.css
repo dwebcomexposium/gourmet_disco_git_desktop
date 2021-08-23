@@ -1177,7 +1177,7 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 .header .header-entry:last-child { margin-bottom: 0;}
 .header .header-entry small { font-size: 17px; line-height: 1.2; letter-spacing: .03em; color: #fff;}
 .header .header-entry-secondary { padding: 10px 0; margin-bottom: 32px; font-family: 'Bebas Neue'; font-size: 31px; line-height: 1; font-weight: bold; letter-spacing: 0; text-transform: uppercase; text-align: center; position: relative; }
-.header p.header-entry-secondary:before {  border-top: 5px solid #FFDE06;  content:"";  margin: 0 auto;  position: absolute; top: 66%; left: 0; right: 0; bottom: 0; width: 85%; z-index: -1; } 
+.header .header-entry-secondary:before {  border-top: 5px solid #FFDE06;  content:"";  margin: 0 auto;  position: absolute; top: 66%; left: 0; right: 0; bottom: 0; width: 85%; z-index: -1; } 
 .header .header-entry-secondary:last-child { margin-bottom: 0;}
 
 /*  Socials  */
