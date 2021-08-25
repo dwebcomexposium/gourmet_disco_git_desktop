@@ -719,7 +719,9 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 
 .article-wrapper h2:before {  border-top: 5px solid #FFDE06;  content:"";  margin: 0 auto;  position: absolute; top:33px; left: 0; bottom: 0; width: 100%; z-index: -1; } 
 
-.article-wrapper h3, .sr-item-title { margin: 0; font-size: 24px; font-weight: 300; color: #221F20; text-transform: uppercase;}
+.article-wrapper h3, .sr-item-title { margin: 0; font-family: 'Bebas Neue', serif; font-size: 33px; font-weight: bold; color: #FF700C; text-transform: uppercase;}
+.article-wrapper h5 { margin: 0; font-family: 'Flama', sans-serif; font-size: 17px; font-weight: 700; color: #221F20; text-transform: uppercase;}
+
 .article-wrapper h4 { text-align: center; margin-bottom: 32px;}
 .article-wrapper h4 span { position: relative; float: none; display: inline-block; padding: 4px 16px 3px; font-family: 'Flama', sans-serif; font-size: 17px; font-weight: 400; color: #fff; text-transform: uppercase; background: #221F20;}
 .article-wrapper h4 span:before { left: calc(100% + 41px);}
@@ -802,7 +804,7 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 
 /*.article-wrapper .cl-item-email a { position: absolute; top: 0; left: 0; opacity: 0;}*/
 .article-wrapper .cl-item-illust, .article-wrapper .cl-item-photo { padding: 0;}
-.article-wrapper .cl-item-illust img, .article-wrapper .cl-item-photo img { border-radius: 50%; width: 180 px /*-webkit-filter: grayscale(100%); filter: grayscale(100%);*/}
+.article-wrapper .cl-item-illust img, .article-wrapper .cl-item-photo img { border-radius: 50%; width: 180px/*-webkit-filter: grayscale(100%); filter: grayscale(100%);*/}
 .article-wrapper .cl-item-illust {display: none; }
 
 .article-navigation { margin: 0 0 81px;}
