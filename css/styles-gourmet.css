@@ -792,15 +792,19 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 .article-wrapper .cl-item:nth-child(even) { float: right;}
 .article-wrapper .cl-item:nth-child(odd) { clear: both;}
 .article-wrapper .cl-item > * { vertical-align: middle;}
-.article-wrapper .cl-item-title { font-size: 20px; line-height: 1.1; font-weight: 400; color: #221F20; margin: 0 0 13px;}
+.article-wrapper .cl-item-title { font-size: 20px; line-height: 1.1; font-weight: 600; color: #221F20; margin: 0 0 13px; font-family: 'Bebas Neue', serif; font-size: 25px; font-weight: bold;}
 .article-wrapper .cl-item-content { padding-left: 0;}
 .article-wrapper .cl-item-phone { margin-top: 2px; font-size: 15px; font-weight: 400; color: #221F20;}
 .article-wrapper .cl-item-subtitle { margin: 0; font-size: 15px; line-height: 1.27; font-weight: 400; color: #221F20;}
 .article-wrapper .cl-item-address { display: none;}
 .article-wrapper .cl-item-email { position: relative; margin: 0; color: #221F20; text-decoration: underline; text-transform: lowercase;}
-.article-wrapper .cl-item-email a { position: absolute; top: 0; left: 0; opacity: 0;}
-.article-wrapper .cl-item-illust { padding: 0;}
-.article-wrapper .cl-item-illust img { border-radius: 50%; -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.article-wrapper .cl-item-email .label { display: none; }
+
+/*.article-wrapper .cl-item-email a { position: absolute; top: 0; left: 0; opacity: 0;}*/
+.article-wrapper .cl-item-illust, .article-wrapper .cl-item-photo { padding: 0;}
+.article-wrapper .cl-item-illust img, .article-wrapper .cl-item-photo img { border-radius: 50%; /*-webkit-filter: grayscale(100%); filter: grayscale(100%);*/}
+.article-wrapper .cl-item-illust {display: none; }
+
 .article-navigation { margin: 0 0 81px;}
 .article-navigation img { position: absolute; width: 113px; height: 113px; top: 50%; left: 0; border-radius: 50%; opacity: .3; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); -webkit-transition: opacity .3s; -o-transition: opacity .3s; transition: opacity .3s;}
 .article-navigation a:hover img { opacity: 1;}
