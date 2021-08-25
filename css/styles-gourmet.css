@@ -196,12 +196,12 @@ body { min-width: 768px; font-family: 'Flama', sans-serif; background: none;}
 .main-navigation .mn-menu-line { position: relative; max-width: 1120px; padding: 0 30px 0 13px; margin: 0 auto; border: 0; z-index: 10;}
 .main-navigation .mn-link-text:before { display: none;}
 .main-navigation .mn-link { position: relative; display: block; padding: 5px 0 20px; font-family: 'Bebas Neue' ; font-size: 20px; font-weight: bold; color: #221F20; text-transform: uppercase;}
-.front .main-navigation .mn-link { padding: 5px 0 31px;}
+/*.front .main-navigation .mn-link { padding: 5px 0 31px;}*/
 .main-navigation .mn-link:hover { color: #221F20; background: none;}
-.main-navigation .mn-link:after { content: ''; position: absolute; width: 0; height: 7px; bottom: -33px; left: 0; background: #221F20; -webkit-transition: width .3s; -o-transition: width .3s; transition: width .3s;}
+.main-navigation .mn-link:after { content: ''; position: absolute; width: 0; height: 7px; bottom: -2px; left: 0; background: #221F20; -webkit-transition: width .3s; -o-transition: width .3s; transition: width .3s;}
 .main-navigation .mn-menu-item:hover .mn-link:after { width: 100%;}
 .main-navigation .mn-menu-item:hover .mn-menu-submenu { top: 100%; opacity: 1; visibility: visible; -webkit-transition: top .3s .3s, opacity .3s .3s, visibility .3s .3s; -o-transition: top .3s .3s, opacity .3s .3s, visibility .3s .3s; transition: top .3s .3s, opacity .3s .3s, visibility .3s .3s;}
-.main-navigation .mn-menu-submenu { display: block; min-width: 293px; top: 150%; padding: 30px 10px 34px 38px; margin-left: -38px; opacity: 0; visibility: hidden;  margin-top: 30px; background: #fff; }
+.main-navigation .mn-menu-submenu { display: block; min-width: 293px; top: 150%; padding: 30px 10px 34px 38px; margin-left: -38px; opacity: 0; visibility: hidden;  margin-top: 0; background: #fff; }
 .main-navigation .mn-menu-submenu .mn-link { padding: 0; font-size: 17px; color: #221F20; -webkit-transition: padding .3s, color .3s; -o-transition: padding .3s, color .3s; transition: padding .3s, color .3s; font-family: 'Flama'; font-weight: 300; }
 .main-navigation .mn-menu-submenu .mn-link:hover { padding-left: 9px; color: #221F20;}
 .main-navigation .mn-menu-submenu .mn-menu-item:first-of-type .mn-link-text { position: static;}
@@ -229,10 +229,10 @@ body { min-width: 768px; font-family: 'Flama', sans-serif; background: none;}
 	.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 50px;}
 	.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:nth-child(2) { margin-left: 30px;}
 	.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:before { left: -26px; top: 10px !important;}
-	.main-navigation .mn-link { font-size: 24px !important;}
+/*	.main-navigation .mn-link { font-size: 24px !important;}*/
 	.site-banner .cxp-searchform form { right: 210px !important;}
 	.site-banner .global-search-form .gsf-fields { width: 120px !important;}
-	.main-navigation .mn-menu-submenu { margin-top: 29px !important;}
+/*	.main-navigation .mn-menu-submenu { margin-top: 29px !important;}*/
 	.site-banner .cxp-searchform { max-width: none !important;}
 .block-badge { right: 50px;}}
 
@@ -326,7 +326,7 @@ to { top: 0;}}
 .list-articles.actus .slider-content:after { content: ''; display: table; line-height: 0; clear: both;}
 .list-articles.actus .la-item.active.fadeout .la-item-content { opacity: 0; visibility: hidden; -webkit-transition: top .7s .5s, opacity .5s, visibility .5s; -o-transition: top .7s .5s, opacity .5s, visibility .5s; transition: top .7s .5s, opacity .5s, visibility .5s;}
 .list-articles.actus .fadeout .la-item-content { opacity: 0; visibility: hidden;}
-.list-articles.actus .la-item-content:before { content: 'À la une'; display: inline-block; max-width: 130px; text-align: center; height: 24px; padding: 0 10px; margin-bottom: 20px; font-size: 10px; line-height: 24px; font-weight: 500; letter-spacing: 0.4em; color: #fbd104; text-transform: uppercase; background: rgba(99, 173, 52, 0.1); -ms-flex: 0 1 auto; -webkit-flex: 0 1 auto; -webkit-box-flex: 0; flex: 0 1 auto; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.list-articles.actus .la-item-content:before { content: 'News'; display: inline-block; max-width: 130px; text-align: center; height: 24px; padding: 0 10px; margin-bottom: 20px; font-size: 10px; line-height: 24px; font-weight: 500; letter-spacing: 0.4em; color: #fbd104; text-transform: uppercase; background: rgba(99, 173, 52, 0.1); -ms-flex: 0 1 auto; -webkit-flex: 0 1 auto; -webkit-box-flex: 0; flex: 0 1 auto; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .list-articles.actus .la-item-title { margin-bottom: 13px;}
 .list-articles.actus .la-item-title a { font-size: 30px; line-height: 1.2; font-weight: 300; color: #221F20; text-transform: uppercase;}
 .list-articles.actus .la-item-title a:hover { text-decoration: underline;}
@@ -731,7 +731,7 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 .article-wrapper blockquote:after { left: 100%;}
 .article-wrapper blockquote i { display: none;}
 .article-wrapper blockquote p { padding: 0; margin: 0; border: 0; line-height: 1.49;}
-.article-wrapper ul { padding: 0; margin: 0 0 57px; border: 0;}
+.article-wrapper ul { padding: 0; margin: 0 0 30px; border: 0;}
 .article-wrapper ul li { position: relative; padding-left: 25px;}
 .article-wrapper ul li:before { content: ''; position: absolute; width: 9px; height: 9px; top: 9px; left: 0; margin: 0; border-radius: 50%; background: #fbd104; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);}
 .article-wrapper ul ul { padding-top: 7px; margin: 0;}
@@ -1191,12 +1191,12 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 .block-badge img:hover { -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05);}
 
 /*  Main Navigation  */
-.main-navigation { padding: 30px 0;}
+.main-navigation { padding: 30px 0 0;}
 .main-navigation .mn-menu-line { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; max-width: 100%; padding: 0 80px;}
 .main-navigation .mn-menu { padding-right: 254px; margin-left: -5px;}
 .main-navigation .mn-link { font-size: 22px; line-height: 1.2;}
 .main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:before { top: 9px; width: 6px; height: 6px; background: #FFDE06;}
-.main-navigation .mn-item-lvl-1 > .mn-link { padding: 0;}
+.main-navigation .mn-item-lvl-1 > .mn-link { padding: 0 0 30px;}
 
 /*  Actus  */
 .list-articles.actus { max-width: 100%; padding: 0 80px; text-align: center;  }
@@ -1512,7 +1512,7 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 }
 .main-navigation .mn-menu-line { max-width: 1300px; margin: 0 auto; padding: 0 30px;}
 .main-navigation .mn-link { color: #221F20; font-size: 25px; font-weight: bold; }
-@media (max-width: 1140px) { .main-navigation .mn-link { font-size: 16px !important;}}
+@media (max-width: 1140px) { .main-navigation .mn-link { font-size: 19px !important;}}
 
 @media (max-width: 992px) { .main-navigation .mn-link { font-size: 14px !important;}}
 
@@ -1573,7 +1573,7 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 .site-footer .ql-item:last-child .btn-primary:before { content: ''; display: block; width: 103px; height: 52px; background: url(images/stockfood.png) no-repeat 0 0; background-size: 100% 100%; margin: 0 auto;}
 .site-footer .ql-item:last-child .btn-primary .txt-btn { position: relative; top: -2px; font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 13px; line-height: 20px; letter-spacing: 1.3px; color: #221F20; opacity: 0.7;}
 .site-footer .ql-item:last-child .btn-primary .txt-btn:before { content: 'Images by'; display: block; font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 15px; line-height: 20px; color: #221F20; opacity: 0.7;}
-@media (max-width: 910px) { .main-navigation { padding: 20px 0;}}
+@media (max-width: 910px) { .main-navigation { padding: 20px 0 ;}}
 
 @media (max-width: 910px) { .main-navigation .mn-link:after { bottom: -20px;}}
 
