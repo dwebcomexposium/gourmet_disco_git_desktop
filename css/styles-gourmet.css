@@ -247,8 +247,8 @@ body { min-width: 768px; font-family: 'Flama', sans-serif; background: none;}
 .site-banner .global-search-form { position: relative; top: auto; right: auto; bottom: auto; left: auto;}
 .site-banner .cxp-searchform { position: relative; max-width: 1120px; margin: 0 auto;}
 .site-banner .cxp-searchform form { position: absolute; right: 8px; top: -48px;}
-.front .site-banner .cxp-searchform form { top: -57px;}
-.front .site-banner.fixed .cxp-searchform form { top: -42px;}
+.site-banner .cxp-searchform form { top: -60px;}
+.site-banner.fixed .cxp-searchform form { top: -45px;}
 .site-banner .global-search-form .gsf-fields, .site-banner .global-search-form.is-visible .gsf-fields, .site-banner .cxp-searchform .gsf-fields { display: block !important; width: 138px; height: 23px; top: -8px; right: -129px; padding: 0; opacity: 0; visibility: hidden; background: none; -webkit-transition: opacity .3s, visibility .3s; -o-transition: opacity .3s, visibility .3s; transition: opacity .3s, visibility .3s;}
 .site-banner .global-search-form .gsf-fields { opacity: 1; visibility: visible;}
 .site-banner .global-search-form .gsf-fields input { font-size: 15px; font-family: 'Flama', sans-serif; font-style: normal !important; padding: 0 30px 0 0;}
@@ -719,7 +719,7 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 
 .article-wrapper h2:before {  border-top: 5px solid #FFDE06;  content:"";  margin: 0 auto;  position: absolute; top:33px; left: 0; bottom: 0; width: 100%; z-index: -1; } 
 
-.article-wrapper h3, .sr-item-title { margin: 0; font-family: 'Bebas Neue', serif; font-size: 33px; font-weight: bold; color: #FF700C; text-transform: uppercase;}
+.article-wrapper h3, .sr-item-title { margin: 0; font-family: 'Bebas Neue', serif; font-size: 33px; font-weight: bold; color: #FF700C; text-transform: uppercase; line-height: 1.2;}
 .article-wrapper h5 { margin: 0; font-family: 'Flama', sans-serif; font-size: 17px; font-weight: 700; color: #221F20; text-transform: uppercase;}
 
 .article-wrapper h4 { text-align: center; margin-bottom: 32px;}
@@ -758,7 +758,7 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 /*.article-wrapper .at-content h1 { font-family: 'Flama', sans-serif; font-size: 40px; font-weight: 300;  color: #221F20; text-transform: uppercase; float: none; max-width: 980px; padding: 0; margin: 0 auto; }*/
 .article-wrapper .center { max-width: 695px; padding: 0; margin-bottom: 39px;
 /*  border: 16px solid #fff;*/ -webkit-box-shadow: 0px 0px 21.36px 2.64px rgba(0, 0, 0, 0.13); box-shadow: 0px 0px 21.36px 2.64px rgba(0, 0, 0, 0.13);}
-.layout-2-col h1, #zone2 h1 { font-family: 'Bebas Neue', sans-serif; font-size: 55px; font-weight: bold; color: #221F20; text-transform: uppercase; float: none; max-width: 980px; padding: 0; margin: 0 auto; text-align: center; border: 0;}
+.layout-2-col h1, #zone2 h1 { font-family: 'Bebas Neue', sans-serif; font-size: 55px; font-weight: bold; color: #221F20; text-transform: uppercase; float: none; max-width: 980px; padding: 0; margin: 0 auto; text-align: center; border: 0; line-height: 1.2; }
 .center figcaption { display: none;}
 
 .focus1 a + a { margin-left: 31px;}
@@ -1592,7 +1592,7 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 
 @media (max-width: 910px) { .main-navigation .mn-menu-submenu { margin-top: 20px !important;}}
 
-@media (max-width: 910px) { .front .site-banner .cxp-searchform form { top: -46px;}}
+@media (max-width: 910px) { .site-banner .cxp-searchform form { top: -46px;}}
 
 .cc-cookies .inside { max-width: 1001px; padding-left: 21px;}
 .site-footer .ql-list { -ms-flex-wrap: wrap; flex-wrap: wrap;}
