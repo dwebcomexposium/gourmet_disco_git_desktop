@@ -728,11 +728,18 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 .article-wrapper h4 span:after { right: calc(100% + 41px);}
 .article-wrapper p { margin-bottom: 28px;}
 .article-wrapper a { color: inherit;}
-.article-wrapper blockquote { position: relative; padding: 31px 71px 36px; margin: 38px 0 44px; font-family: 'Flama', sans-serif; font-size: 27px; line-height: 1.48; font-weight: 300; color: #221F20; text-align: center; background: #fbd104;}
-.article-wrapper blockquote:before { right: 100%;}
-.article-wrapper blockquote:after { left: 100%;}
-.article-wrapper blockquote i { display: none;}
-.article-wrapper blockquote p { padding: 0; margin: 0; border: 0; line-height: 1.49;}
+
+
+
+
+.article-wrapper blockquote {  font-family: 'Flama', sans-serif;  color: #221F20; background: #fbd104; margin: 2em 0; padding: 30px 50px 20px; }
+.article-content blockquote .icon-quote {  color: #fbd104; background: #221F20;}
+.article-wrapper blockquote p { border: 0; padding: 0; font-size: 17px; }
+.article-wrapper blockquote figure {margin-bottom: 20px; }
+
+.article-content figure {border: 0; }
+
+
 .article-wrapper ul { padding: 0; margin: 0 0 30px; border: 0;}
 .article-wrapper ul li { position: relative; padding-left: 25px;}
 .article-wrapper ul li:before { content: ''; position: absolute; width: 9px; height: 9px; top: 9px; left: 0; margin: 0; border-radius: 50%; background: #fbd104; -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg);}
@@ -742,7 +749,7 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 .article-wrapper ul li + li { margin-top: 7px;}
 .article-wrapper ul li li:before { width: 6px; height: 1px; top: 12px; border-radius: 0; background: #152848;}
 .article-wrapper h4 span:before, .article-wrapper h4 span:after { content: ''; position: absolute; width: 80px; height: 1px; top: 50%; background: rgba(92, 75, 92, 0.2);}
-.article-wrapper blockquote:after, .article-wrapper blockquote:before { content: ''; position: absolute; width: 5000%; height: 100%; top: 0; background: #fbd104;}
+/*.article-wrapper blockquote:after, .article-wrapper blockquote:before { content: ''; position: absolute; width: 5000%; height: 100%; top: 0; background: #fbd104;}*/
 .article-wrapper .article-content { max-width: 980px; margin: 0 auto;}
 .article-wrapper .article-intro { max-width: 980px; padding: 20px 0; margin: 0 auto; font-size: 17px; line-height: 1.35; font-weight: 300; letter-spacing: 0.03em; color: #221F20; text-align: center;}
 .article-wrapper .article-title .inside { display: -ms-flexbox; display: -webkit-flex; display: -webkit-box; display: flex; -ms-flex-flow: column-reverse nowrap; -webkit-flex-flow: column-reverse nowrap; -webkit-box-orient: vertical; -webkit-box-direction: reverse; flex-flow: column-reverse nowrap;}
