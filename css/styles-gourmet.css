@@ -1732,4 +1732,7 @@ html { background: url(gfx/header-bg.png) center top no-repeat; background-size:
 .block-focus .btn-primary:hover { padding: 0 20px 0 41px; background: #fbd104; color: #221F20; }
 
 
+.nf-loading  { display: none; }
+
+
 :lang(en) .header .col-size3 { width: 300px; }
