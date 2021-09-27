@@ -376,11 +376,11 @@ to { top: 0;}}
 
 .edito.prez h2:before {  border-top: 5px solid #FFDE06;  content:"";  margin: 0 auto;  position: absolute; top:31px; left: 0; bottom: 0; width: 100%; z-index: -1; } 
 .edito.prez .gallery { position: absolute; top: 84px; right: 0; margin-bottom: -30px;}
-.edito.prez .link-read-more { position: relative; display: inline-block; background: #fbd104; color: #221F20; text-decoration: none; font-family: 'Bebas Neue';
+.edito.prez .link-read-more, body.partner a.link-read-more { position: relative; display: inline-block; background: #fbd104; color: #221F20; text-decoration: none; font-family: 'Bebas Neue';
 font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; border-radius: 32px; height: 51px; line-height: 55px; padding: 0 20px 0 40px;}
-.edito.prez .link-read-more:after { content: ''; position: absolute; width: 13px; height: 9px; top: 47%; left: 15px; background: url(gfx/ico-arrow.svg) no-repeat 0 0; background-size: 100% 100%; margin-top: -3px;}
-.edito.prez .link-read-more { transition: -webkit-padding .4s; transition: -ms-padding .4s; transition: -o-padding .4s; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s;}
-.edito.prez .link-read-more:hover { padding: 0 20px 0 36px;}
+.edito.prez .link-read-more:after, body.partner a.link-read-more:after { content: ''; position: absolute; width: 13px; height: 9px; top: 47%; left: 15px; background: url(gfx/ico-arrow.svg) no-repeat 0 0; background-size: 100% 100%; margin-top: -3px;}
+.edito.prez .link-read-more, body.partner a.link-read-more { transition: -webkit-padding .4s; transition: -ms-padding .4s; transition: -o-padding .4s; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s;}
+.edito.prez .link-read-more:hover, body.partner a.link-read-more:hover { padding: 0 20px 0 36px;}
 
 
 .edito.prez .inside { position: relative; max-width: 1120px; padding-right: 0; margin: 0 auto; z-index: 2;}
@@ -719,7 +719,7 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 
 .article-wrapper h2:before {  border-top: 5px solid #FFDE06;  content:"";  margin: 0 auto;  position: absolute; top:33px; left: 0; bottom: 0; width: 100%; z-index: -1; } 
 
-.article-wrapper h3, .sr-item-title { margin: 0; font-family: 'Bebas Neue', serif; font-size: 33px; font-weight: bold; color: #FF700C; text-transform: uppercase; line-height: 1.2;}
+.article-wrapper h3, .sr-item-title, h3.pl-item-title { margin: 0; font-family: 'Bebas Neue', serif; font-size: 33px; font-weight: bold; color: #FF700C; text-transform: uppercase; line-height: 1.2;}
 .article-wrapper h5 { margin: 0; font-family: 'Flama', sans-serif; font-size: 17px; font-weight: 700; color: #221F20; text-transform: uppercase;}
 
 .article-wrapper h4 { text-align: center; margin-bottom: 32px;}
@@ -728,7 +728,14 @@ font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0
 .article-wrapper h4 span:after { right: calc(100% + 41px);}
 .article-wrapper p { margin-bottom: 28px;}
 .article-wrapper a { color: inherit;}
+/*.article-wrapper blockquote { position: relative; padding: 31px 71px 36px; margin: 38px 0 44px; font-family: 'Flama', sans-serif; font-size: 27px; line-height: 1.48; font-weight: 300; color: #221F20; text-align: center; background: #fbd104;}
+.article-wrapper blockquote:before { right: 100%;}
+.article-wrapper blockquote:after { left: 100%;}
+.article-wrapper blockquote i { display: none;}
+.article-wrapper blockquote p { padding: 0; margin: 0; border: 0; line-height: 1.49;}
 
+
+.article-wrapper blockquote { position: relative; padding: 31px 71px 36px; margin: 38px 0 44px; font-family: 'Flama', sans-serif; font-size: 27px; line-height: 1.48; font-weight: 300; color: #221F20; text-align: center; background: #fbd104;}*/
 
 
 
@@ -1732,7 +1739,21 @@ html { background: url(gfx/header-bg.png) center top no-repeat; background-size:
 .block-focus .btn-primary:hover { padding: 0 20px 0 41px; background: #fbd104; color: #221F20; }
 
 
-.nf-loading  { display: none; }
-
-
 :lang(en) .header .col-size3 { width: 300px; }
+
+
+
+/* ------------------------------------------------------------ *\
+    Partner page 
+\* ------------------------------------------------------------ */
+
+
+body.partner  .block.block-page.partner-list div.inside  { max-width: 980px;  margin: 0 auto; }
+ 
+body.partner .pl-item { padding: 40px 0; border: 0;
+}
+body.partner .pl-item-group { margin-bottom: 100px; }
+body.partner .pl-item-read-more { margin-top: 20px; }
+body.partner .block-page.partner-list { margin-top: 50px; }
+body.partner .pl-item-illust { border-radius: 0px; margin-right: 40px; border: 1px solid #dddddd; padding: 30px; }
+body.partner .site-banner .intro p { margin-bottom: 20px; }
