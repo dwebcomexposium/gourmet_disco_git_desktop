@@ -62,7 +62,7 @@ display : block !important;
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a{
 	font-weight: bold !important;
-	color: #F4080C !important;
+	color: #000000 !important;
 }
 
 
@@ -88,7 +88,7 @@ display : block !important;
  
 #catalog-v2 .bgTint {background-color: #FFDE06!important;}
 /*Mise en avant RS*/
-#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {background: #64C2C8!important;}
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {background: #000000!important;}
 
 /*cacher encart présent sur */
 #catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {display: none !important;}
