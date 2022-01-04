@@ -83,3 +83,12 @@ display : block !important;
 .node1383312 #zone2 {width: 100%  !important}
 
 .test{color:red}
+
+/*New catalog*/
+ 
+#catalog-v2 .bgTint {background-color: #FFDE06!important;}
+/*Mise en avant RS*/
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {background: #64C2C8!important;}
+
+/*cacher encart présent sur */
+#catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {display: none !important;}
