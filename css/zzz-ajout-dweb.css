@@ -92,3 +92,8 @@ display : block !important;
 
 /*cacher encart présent sur */
 #catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {display: none !important;}
+
+
+.main-navigation .mn-link {
+    font-size: 22px;
+}
